@@ -29,14 +29,23 @@ class APIAssurity(unittest.TestCase):
         self.Log.Info("Checking name from json response")
         self.AcceptanceCriteria='Carbon credits'
         self.assertEqual(self.JsonData['Name'], self.AcceptanceCriteria)
-    
-    
+     
+     
     def test_IsCanReListTrue(self):
         self.Log.Info("Checking if CanReList returns true in json response")
         self.AcceptanceCriteria=True        
         self.assertEqual(self.JsonData['CanRelist'], self.AcceptanceCriteria)
     
-            
+    def test_CheckDescriptionContent(self):
+        self.Log.Info("Checking the description in Promotions element that has Name as Gallery and description as 2x larger image")
+        self.AcceptanceCriteria='2x larger image'
+        self.PassedTest=False
+        if (self.AcceptanceCriteria in self.JsonData['Promotions'][1]['Description']):
+            self.Log.Info("Acceptance criteria '%s' is in the json response '%s'"%(self.AcceptanceCriteria,self.JsonData['Promotions'][1]['Description']))
+            self.PassedTest=True
+        self.assertTrue(self.PassedTest,'Test Case Failed')
+        
+        
             
         
         

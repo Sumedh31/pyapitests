@@ -1,0 +1,55 @@
+02/04/2019 08:29:20 AM Info: There is some problem consuming the API
+02/04/2019 08:29:20 AM Info: Checking name from json response
+02/04/2019 08:31:07 AM Info: Issues in cousnuming API
+02/04/2019 08:31:07 AM Info: Checking name from json response
+02/04/2019 08:32:00 AM Info: Issues in cousnuming API
+02/04/2019 08:32:00 AM Info: Checking name from json response
+02/04/2019 08:32:21 AM Info: Issues in cousnuming API
+02/04/2019 08:32:21 AM Info: Checking name from json response
+02/04/2019 08:32:39 AM Info: Issues in cousnuming API
+02/04/2019 08:32:39 AM Info: Checking name from json response
+02/04/2019 08:32:57 AM Info: Issues in cousnuming API
+02/04/2019 08:32:57 AM Info: Checking name from json response
+02/04/2019 08:33:16 AM Info: Issues in cousnuming API
+02/04/2019 08:33:16 AM Info: Checking name from json response
+02/04/2019 08:49:17 PM Info: Checking name from json response
+02/04/2019 09:33:46 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:33:54 PM Info: Checking name from json response
+02/04/2019 09:35:16 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:35:20 PM Info: Checking name from json response
+02/04/2019 09:38:54 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:38:58 PM Info: Checking name from json response
+02/04/2019 09:40:07 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:40:07 PM Info: True
+02/04/2019 09:40:11 PM Info: Checking name from json response
+02/04/2019 09:42:22 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:42:26 PM Info: Checking name from json response
+02/04/2019 09:43:18 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:43:22 PM Info: Checking name from json response
+02/04/2019 09:43:57 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:44:01 PM Info: Checking name from json response
+02/04/2019 09:44:28 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:45:15 PM Info: Checking name from json response
+02/04/2019 09:47:42 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:48:45 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:48:50 PM Info: Checking name from json response
+02/04/2019 09:57:12 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:57:16 PM Info: Checking name from json response
+02/04/2019 09:59:53 PM Info: Checking if CanReList returns true in json response
+02/04/2019 09:59:58 PM Info: Checking name from json response
+03/04/2019 07:35:51 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:36:24 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:37:36 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:40:27 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:51:09 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:53:16 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:53:16 AM Info: Acceptance criteria 2x larger image is in the json response Good position in category 
+2x larger image in desktop site search results
+03/04/2019 07:53:56 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:53:56 AM Info: Acceptance criteria '2x larger image' is in the json response 'Good position in category 
+2x larger image in desktop site search results'
+03/04/2019 07:54:31 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:55:09 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:55:27 AM Info: Checking the description in Promotions element that has Name as Gallery and description as 2x larger image
+03/04/2019 07:55:27 AM Info: Acceptance criteria '2x larger image' is in the json response 'Good position in category 
+2x larger image in desktop site search results'
