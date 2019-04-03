@@ -9,7 +9,6 @@ import json
 import requests
 from requests.models import Response
 
-
 class APIAssurity(unittest.TestCase):
     def setUp(self):
         self.ApiUrl='https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false' 
@@ -25,15 +24,16 @@ class APIAssurity(unittest.TestCase):
         except Response.raise_for_status():
                 self.Log.Info("Issues in cousnuming API")
                 self.Log.Error(self.StatusCode)
-        
+     
     def test_Name(self):        
         self.Log.Info("Checking name from json response")
         self.AcceptanceCriteria='Carbon credits'
         self.assertEqual(self.JsonData['Name'], self.AcceptanceCriteria)
     
+    
     def test_IsCanReListTrue(self):
         self.Log.Info("Checking if CanReList returns true in json response")
-        self.AcceptanceCriteria='true'
+        self.AcceptanceCriteria=True        
         self.assertEqual(self.JsonData['CanRelist'], self.AcceptanceCriteria)
     
             
