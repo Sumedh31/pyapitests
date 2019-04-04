@@ -21,8 +21,8 @@ class APIAssurity(unittest.TestCase):
                 self.JsonData=self.Response.json()
                 
         except Response.raise_for_status():
-                self.Log.Info("Issues in cousnuming API")
-                self.Log.Error(self.StatusCode)
+                self.Log.Error("Issues in cousnuming API - response code {}".format(self.StatusCode))
+                
      
     def test_FirstAcceptanceCriteriaForName(self):        
         self.Log.Info("Checking name from json response")
