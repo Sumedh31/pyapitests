@@ -1,3 +1,13 @@
 # ApiTest
+# Repo for API testing - Python code
 
-Repo for API testing code
+<div id="Assurity API" />
+
+## API Automation Testing: <a name="Tests to verify Acceptance criteria for an API"></a>
+
+## Instructions to run the tests: 
+
+*   You need to have python installed to run the tests. To install python you can use "\APITestAssurity\Scripts\InstallPython.ps1" script.
+	This script would download and install "python-3.7.3-amd64.exe". If you have organizational policies on your computer then then this script may not be executed properly. In that case if recommend you to install python first.
+*   Run Tests- you can run the tests by running "\APITestAssurity\Scripts\RunTests.ps1" script. Or you can run this directly as Python unit Test (Either by using IDEs like Eclipse,Pycharm or from command line).   
+
