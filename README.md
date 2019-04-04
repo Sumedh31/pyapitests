@@ -1,9 +1,7 @@
 # ApiTest
-# Repo for API testing - Python code
+# Repo for API testing - (Python code)
 
-<div id="Assurity API" />
-
-## API Automation Testing: <a name="Tests to verify Acceptance criteria for an API"></a>
+## API Automation Testing: Tests to verify Acceptance criteria for an API
 
 ## Instructions to run the tests: 
 
